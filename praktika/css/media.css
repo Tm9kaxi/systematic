@@ -1,0 +1,168 @@
+@media (max-width: 1250px){
+	.container{
+		max-width: 900px;
+	}
+	header ul{
+		width: 45%;
+	}
+	.icons {
+		width: 23%;
+	}
+	#big_main .clients h4::after{
+		top:-22px;
+		font-size: 90px;
+	}
+	#big_main .our_services ul li{
+		margin-bottom: 14px;
+	}
+}
+@media (max-width: 960px){
+	.container{
+		max-width: 768px;
+	}
+	.footer .contact_us .submit{
+		max-width: 40%; 
+	}
+	.photoAndtitle .title h2{
+		font-size: 52px;
+		text-align: center;
+		margin-bottom: 25px;
+	}
+	.photoAndtitle .title p{
+		text-align: justify;
+	}
+	#big_main .container{
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	#big_main .aLittle{
+		flex:0 1 45%;
+		max-width: none;
+	}
+	#big_main .our_services{
+		flex:0 1 50%;
+		max-width: none;
+	}
+	#big_main .clients{
+		flex:0 1 100%;
+		max-width: none;
+	}
+	#big_main .clients p{
+		text-align: justify;
+	}
+	footer .lates_tweets{
+		flex:0 1 50%;
+	}
+	footer .quick_links{
+		flex:0 1 50%;
+		margin-bottom: 55px;
+	}
+	footer .latest_blog_posts{
+		flex: 0 1 45%;
+
+	}
+	footer .contact_us{
+		flex: 0 1 45%;
+	}
+	#big_main h3{
+		font-size: 42px;
+		margin-bottom: 7%;
+		text-align: center;
+		padding-top: 30px;
+	}
+	footer .container{
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 768px){
+	.container{
+		max-width: 540px;
+	}
+	.photoAndtitle{
+		flex-direction: column-reverse;
+
+	}
+	.big_menu ul li:first-child{
+		padding:0;
+	}
+	.photoAndtitle .title{
+		width: 100%;
+	}
+	.title{
+		padding-bottom: 21px;
+	}
+	.photo{
+		margin-top:25px;
+	}
+	header{
+		width: 100%;
+		position: fixed;
+		z-index: 99;
+	}
+	header ul{
+		width: 83%
+	}
+	.big_menu ul{
+		flex-direction: column;	
+	}
+	.big_menu ul li{
+		text-align: center;
+	}
+	.big_menu ul li a{
+		font-size: 25px;
+	}
+	.photoAndtitle .photo{
+		width: none;
+	}
+	.photoAndtitle .title{
+		width: none;
+	}
+	.photoAndtitle .title span{
+		bottom: 0%;
+	}
+	#big_main .aLittle{
+		flex:0 1 100%;
+	}
+	#big_main .our_services{
+		flex:0 1 100%;
+	}
+	.clients_content{
+		margin-bottom: 26px;
+	}
+	footer .lates_tweets{
+		flex:0 1 100%;
+	}
+	footer .quick_links{
+		flex:0 1 100%;
+	}
+	footer .quick_links{
+		text-align: center;
+	}
+	footer .latest_blog_posts{
+		flex:0 1 100%;
+	} 
+	footer .contact_us{
+		flex:0 1 100%;
+	}
+	footer .contact_us .submit{
+		width: 101.5%;
+	}
+	footer .mini_footer .container{
+		justify-content: center;	
+	}
+	.copyright{
+		padding-bottom: 15px;
+	}
+}
+@media (max-width: 555px){
+	.container{
+		max-width: 550px;
+		padding: 5px;
+	}
+	.icons{
+		width: 32%;
+	}
+	.logo_icons{
+		padding-top: 49px;
+	}
+}
