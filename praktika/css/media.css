@@ -112,7 +112,7 @@
 		font-size: 25px;
 	}
 	.photoAndtitle .photo{
-		width: none;
+		width: 100%;
 	}
 	.photoAndtitle .title{
 		width: none;
@@ -163,6 +163,43 @@
 		width: 32%;
 	}
 	.logo_icons{
-		padding-top: 49px;
+		padding-top: 85px;
+	}
+}
+@media (max-width: 555px){
+	.mini-nav{
+		flex-direction: column;
+	}
+	.mini-nav ul{
+		margin-bottom: 15px;	
+	}
+	.header_search{
+		width: 98%;
+	}
+	footer h3{
+		text-align: center;
+
+	}
+	.contact_us{
+		text-align: center;
+	}
+	header ul{
+		width: 100%;
+	}
+	footer h3{
+		padding-bottom: 6%;
+
+	}
+	.posts h4{
+		font-size: 18px;
+	}
+	.posts h4,p{
+		text-align: center;
+	}
+	footer .latest_blog_posts .posts .posts_first_text{
+		width: 100%;	
+	}
+	footer .latest_blog_posts .posts p{
+		width: 100%;
 	}
 }
